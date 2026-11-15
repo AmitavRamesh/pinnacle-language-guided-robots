@@ -1,0 +1,26 @@
+# environments and caches (rebuild with: py -3.12 -m venv .venv; caches go to .cache)
+.venv/
+.cache/
+__pycache__/
+*.pyc
+node_modules/
+
+# large / regenerable simulation outputs
+sim/out/traj/
+sim/out/traj_world/
+sim/out/*.log
+sim/out/smoke*.jsonl
+sim/scratch/
+sim/weights
+
+# render previews used only for checking documents
+report/pages/
+report/deck_out/
+report/deck_src/
+report/scratch_*.py
+report/~$*
+~$*
+
+# personal files not part of the project
+*.jpeg
+!report/figs/*.jpeg
