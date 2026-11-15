@@ -1,0 +1,572 @@
+{
+ "heatmap": {
+  "T1": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 70.0,
+   "C3": 100.0,
+   "C4": 0.0,
+   "C5": 100.0,
+   "C6": 100.0
+  },
+  "T2": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 50.0,
+   "C3": 100.0,
+   "C4": 0.0,
+   "C5": 100.0,
+   "C6": 100.0
+  },
+  "T3": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 20.0,
+   "C3": 100.0,
+   "C4": 0.0,
+   "C5": 100.0,
+   "C6": 100.0
+  },
+  "T4": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 40.0,
+   "C3": 100.0,
+   "C4": 0.0,
+   "C5": 100.0,
+   "C6": 100.0
+  },
+  "T5": {
+   "C0": 100.0,
+   "C1": 10.0,
+   "C2": 40.0,
+   "C3": 50.0,
+   "C4": 0.0,
+   "C5": 90.0,
+   "C6": 70.0
+  },
+  "T6": {
+   "C0": 100.0,
+   "C1": 0.0,
+   "C2": 80.0,
+   "C3": 40.0,
+   "C4": 100.0,
+   "C5": 50.0,
+   "C6": 20.0
+  },
+  "T7": {
+   "C0": 100.0,
+   "C1": 30.0,
+   "C2": 60.0,
+   "C3": 60.0,
+   "C4": 0.0,
+   "C5": 80.0,
+   "C6": 50.0
+  },
+  "T8": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 30.0,
+   "C3": 100.0,
+   "C4": 0.0,
+   "C5": 100.0,
+   "C6": 100.0
+  },
+  "T9": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 100.0,
+   "C3": 100.0,
+   "C4": 20.0,
+   "C5": 100.0,
+   "C6": 100.0
+  },
+  "T10": {
+   "C0": 100.0,
+   "C1": 100.0,
+   "C2": 70.0,
+   "C3": 100.0,
+   "C4": 0.0,
+   "C5": 100.0,
+   "C6": 100.0
+  }
+ },
+ "heatmap_n": {
+  "T1": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T2": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T3": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T4": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T5": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T6": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T7": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T8": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T9": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  },
+  "T10": {
+   "C0": 10,
+   "C1": 10,
+   "C2": 10,
+   "C3": 10,
+   "C4": 5,
+   "C5": 10,
+   "C6": 10
+  }
+ },
+ "overall": [
+  {
+   "config": "C0",
+   "name": "C0 Oracle",
+   "episodes": 100,
+   "nav_n": 80,
+   "nav_succ": 100.0,
+   "nav_lo": 95.4,
+   "nav_hi": 100.0,
+   "spl": 0.98,
+   "t_succ": 15.7,
+   "dist_err": 0.041,
+   "wrong": 0.0,
+   "wrong_lo": 0.0,
+   "wrong_hi": 11.4,
+   "absence": 100.0,
+   "absence_n": 10,
+   "collisions": 0,
+   "min_clear": 0.024,
+   "clear_med": 0.581,
+   "lat_med": 0.3,
+   "lat_p95": 0.5,
+   "vlm_calls": 0.0
+  },
+  {
+   "config": "C1",
+   "name": "C1 Colour",
+   "episodes": 100,
+   "nav_n": 80,
+   "nav_succ": 80.0,
+   "nav_lo": 70.0,
+   "nav_hi": 87.3,
+   "spl": 0.78,
+   "t_succ": 15.9,
+   "dist_err": 0.043,
+   "wrong": 63.3,
+   "wrong_lo": 45.5,
+   "wrong_hi": 78.1,
+   "absence": 0.0,
+   "absence_n": 10,
+   "collisions": 0,
+   "min_clear": 0.017,
+   "clear_med": 0.499,
+   "lat_med": 1.3,
+   "lat_p95": 2.1,
+   "vlm_calls": 0.0
+  },
+  {
+   "config": "C2",
+   "name": "C2 YOLO-World",
+   "episodes": 100,
+   "nav_n": 80,
+   "nav_succ": 47.5,
+   "nav_lo": 36.9,
+   "nav_hi": 58.3,
+   "spl": 0.22,
+   "t_succ": 76.1,
+   "dist_err": 0.022,
+   "wrong": 13.3,
+   "wrong_lo": 5.3,
+   "wrong_hi": 29.7,
+   "absence": 80.0,
+   "absence_n": 10,
+   "collisions": 1,
+   "min_clear": -0.0,
+   "clear_med": 0.314,
+   "lat_med": 16.3,
+   "lat_p95": 41.5,
+   "vlm_calls": 0.0
+  },
+  {
+   "config": "C3",
+   "name": "C3 OWLv2",
+   "episodes": 100,
+   "nav_n": 80,
+   "nav_succ": 88.8,
+   "nav_lo": 80.0,
+   "nav_hi": 94.0,
+   "spl": 0.83,
+   "t_succ": 31.9,
+   "dist_err": 0.044,
+   "wrong": 50.0,
+   "wrong_lo": 33.2,
+   "wrong_hi": 66.8,
+   "absence": 40.0,
+   "absence_n": 10,
+   "collisions": 0,
+   "min_clear": 0.035,
+   "clear_med": 0.494,
+   "lat_med": 87.7,
+   "lat_p95": 190.6,
+   "vlm_calls": 0.0
+  },
+  {
+   "config": "C4",
+   "name": "C4 VLM policy",
+   "episodes": 50,
+   "nav_n": 40,
+   "nav_succ": 0.0,
+   "nav_lo": 0.0,
+   "nav_hi": 8.8,
+   "spl": 0.0,
+   "t_succ": NaN,
+   "dist_err": NaN,
+   "wrong": 0.0,
+   "wrong_lo": 0.0,
+   "wrong_hi": 20.4,
+   "absence": 100.0,
+   "absence_n": 5,
+   "collisions": 0,
+   "min_clear": 0.121,
+   "clear_med": 0.581,
+   "lat_med": 725.9,
+   "lat_p95": 859.9,
+   "vlm_calls": 67.1
+  },
+  {
+   "config": "C5",
+   "name": "C5 Hybrid (ours)",
+   "episodes": 100,
+   "nav_n": 80,
+   "nav_succ": 96.2,
+   "nav_lo": 89.5,
+   "nav_hi": 98.7,
+   "spl": 0.85,
+   "t_succ": 27.1,
+   "dist_err": 0.04,
+   "wrong": 23.3,
+   "wrong_lo": 11.8,
+   "wrong_hi": 40.9,
+   "absence": 50.0,
+   "absence_n": 10,
+   "collisions": 1,
+   "min_clear": 0.0,
+   "clear_med": 0.561,
+   "lat_med": 18.9,
+   "lat_p95": 59.8,
+   "vlm_calls": 4.3
+  },
+  {
+   "config": "C6",
+   "name": "C6 C5 w/o VLM",
+   "episodes": 100,
+   "nav_n": 80,
+   "nav_succ": 90.0,
+   "nav_lo": 81.5,
+   "nav_hi": 94.8,
+   "spl": 0.82,
+   "t_succ": 23.8,
+   "dist_err": 0.044,
+   "wrong": 53.3,
+   "wrong_lo": 36.1,
+   "wrong_hi": 69.8,
+   "absence": 20.0,
+   "absence_n": 10,
+   "collisions": 0,
+   "min_clear": 0.021,
+   "clear_med": 0.561,
+   "lat_med": 20.7,
+   "lat_p95": 54.0,
+   "vlm_calls": 0.0
+  }
+ ],
+ "cross_sim": {
+  "C0|T1": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C0|T3": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C0|T5": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C0|T6": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C0|T9": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C1|T1": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C1|T3": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C1|T5": {
+   "mujoco": 60.0,
+   "pybullet": 10.0
+  },
+  "C1|T6": {
+   "mujoco": 20.0,
+   "pybullet": 0.0
+  },
+  "C1|T9": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C2|T1": {
+   "mujoco": 90.0,
+   "pybullet": 70.0
+  },
+  "C2|T3": {
+   "mujoco": 90.0,
+   "pybullet": 20.0
+  },
+  "C2|T5": {
+   "mujoco": 40.0,
+   "pybullet": 40.0
+  },
+  "C2|T6": {
+   "mujoco": 60.0,
+   "pybullet": 80.0
+  },
+  "C2|T9": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C5|T1": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C5|T3": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  },
+  "C5|T5": {
+   "mujoco": 80.0,
+   "pybullet": 90.0
+  },
+  "C5|T6": {
+   "mujoco": 60.0,
+   "pybullet": 50.0
+  },
+  "C5|T9": {
+   "mujoco": 100.0,
+   "pybullet": 100.0
+  }
+ },
+ "mujoco_tilt_max": 17.7,
+ "mujoco_tilt_med": 6.8,
+ "t3_time": {
+  "mujoco": 43.2,
+  "pybullet": 35.6
+ },
+ "t9": {
+  "mujoco": {
+   "hover": [
+    0.5,
+    0.5
+   ],
+   "land": [
+    6.15,
+    6.15
+   ]
+  },
+  "pybullet": {
+   "hover": [
+    0.5,
+    0.5
+   ],
+   "land": [
+    6.15,
+    6.15
+   ]
+  }
+ },
+ "sensor": {
+  "mujoco|T4": {
+   "n": 20,
+   "success": 100.0,
+   "min": 0.017,
+   "med": 0.29400000000000004,
+   "below10": 4,
+   "time": 35.575,
+   "interv": 22.35
+  },
+  "mujoco|T4D": {
+   "n": 20,
+   "success": 100.0,
+   "min": 0.11900000000000001,
+   "med": 0.3305,
+   "below10": 0,
+   "time": 35.4,
+   "interv": 52.85
+  },
+  "pybullet|T4": {
+   "n": 20,
+   "success": 100.0,
+   "min": 0.024,
+   "med": 0.2955,
+   "below10": 3,
+   "time": 35.400000000000006,
+   "interv": 21.25
+  },
+  "pybullet|T4D": {
+   "n": 20,
+   "success": 100.0,
+   "min": 0.11900000000000001,
+   "med": 0.316,
+   "below10": 0,
+   "time": 35.2,
+   "interv": 52.4
+  }
+ },
+ "distractor": [
+  {
+   "config": "C1",
+   "ball_present": true,
+   "episodes": 15,
+   "wrong": 10
+  },
+  {
+   "config": "C1",
+   "ball_present": false,
+   "episodes": 15,
+   "wrong": 9
+  },
+  {
+   "config": "C3",
+   "ball_present": true,
+   "episodes": 15,
+   "wrong": 14
+  },
+  {
+   "config": "C3",
+   "ball_present": false,
+   "episodes": 15,
+   "wrong": 1
+  },
+  {
+   "config": "C5",
+   "ball_present": true,
+   "episodes": 15,
+   "wrong": 7
+  },
+  {
+   "config": "C5",
+   "ball_present": false,
+   "episodes": 15,
+   "wrong": 0
+  },
+  {
+   "config": "C6",
+   "ball_present": true,
+   "episodes": 15,
+   "wrong": 12
+  },
+  {
+   "config": "C6",
+   "ball_present": false,
+   "episodes": 15,
+   "wrong": 4
+  }
+ ],
+ "parser": {
+  "correct": 30,
+  "n": 30,
+  "failed": []
+ },
+ "episodes_total": 1392,
+ "episodes_by_sim": {
+  "mujoco": 520,
+  "pybullet": 872
+ },
+ "collision_eps": [
+  {
+   "sim": "pybullet",
+   "config": "C2",
+   "scenario": "T5",
+   "seed": 8
+  },
+  {
+   "sim": "pybullet",
+   "config": "C5",
+   "scenario": "T8",
+   "seed": 1
+  }
+ ],
+ "dist_err_c0": 0.041
+}
