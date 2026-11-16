@@ -781,8 +781,8 @@ chapter = "A";
 add(H1("Appendix A. Project Timeline, Phases and Work Division"));
 add(P(`The project was carried out in the phases described in Section 3.1. The table records, for each phase, the activities, the outputs and the evidence that documents them. **Dates and owners highlighted in yellow must be filled in by the team from their own records** (meeting notes, messages, file dates); the evidence column lists the files produced by this report's work.`));
 add(table("Project phases: activities, outputs and evidence", ["Phase", "Dates", "Activities", "Outputs", "Evidence"], [
-  ["0 Problem framing", "[[dates]]", "Topic selection; literature on VLA/VLN, drone VLAs, memory, cross-embodiment; research proposal; tool survey", "Problem statement, gaps G1–G5, proposal deck, plan", "Proposal (.pptx), project_plan.md, Ch. 1–2"],
-  ["1 Single-goal drone", "[[dates]]", "Simulator setup; 7 perception configurations; 10 scenarios; MuJoCo cross-check; sensor ablation", "~1,400 episodes, Phase-1 results", "sim/out/results*.jsonl, problems_log.md"],
+  ["0 Problem framing", "[[dates]]", "Topic selection; literature on VLA/VLN, drone VLAs, memory, cross-embodiment; research proposal; tool survey", "Problem statement, gaps G1–G5, proposal deck, plan", "Research proposal (.pptx), Ch. 1–2"],
+  ["1 Single-goal drone", "[[dates]]", "Simulator setup; 7 perception configurations; 10 scenarios; MuJoCo cross-check; sensor ablation", "~1,400 episodes, Phase-1 results", "sim/out/results*.jsonl"],
   ["1b Task + embodiment diversity", "[[dates]]", "Helipad task and 3 verifier iterations; Husky ground robot; Franka arm", "Experiments 4–6", "sim/out/world_L/O/A.jsonl"],
   ["2 Memory + missions", "[[dates]]", "Semantic memory, room topology, multi-object missions", "Experiment 7", "sim/out/world_M.jsonl"],
   ["Report + presentation", "[[dates]]", "Analysis, figures, report, demo videos", "This report, demo videos", "report/, sim/out/demo_*.mp4"],

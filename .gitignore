@@ -25,3 +25,11 @@ report/~$*
 *.jpeg
 !report/figs/*.jpeg
 report/final_out/
+
+# private working notes and superseded drafts (kept locally only)
+_private/
+project_plan.md
+problems_log.md
+report/Project_Report.docx
+report/Project_Report.pdf
+report/Pinnacle_Presentation_Phase1-2.pptx

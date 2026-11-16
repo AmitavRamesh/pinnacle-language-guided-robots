@@ -23,8 +23,7 @@ sim/dronenav/      simulator adapters, perception, planner, safety filter, memor
 sim/*.py           experiment runners, analysis, demo/video tools, interactive flight (fly.py)
 sim/out/           results (*.jsonl), analysis tables, demo videos
 report/            report generator (build_report2.js + parts/), figures, final report (.docx/.pdf)
-report/build_deck.py, Pinnacle_Presentation_Phase1-2.pptx   presentation
-project_plan.md, problems_log.md   planning document and the problem/iteration log
+report/build_final_ppt.js, Final_Presentation.pptx   final presentation
 ```
 
 ## Reproduce
