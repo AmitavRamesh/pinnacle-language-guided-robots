@@ -24,3 +24,4 @@ report/~$*
 # personal files not part of the project
 *.jpeg
 !report/figs/*.jpeg
+report/final_out/
