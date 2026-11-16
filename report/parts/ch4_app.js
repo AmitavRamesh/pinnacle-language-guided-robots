@@ -34,7 +34,7 @@ add(table("Project phases: activities, outputs and evidence", ["Phase", "Dates",
   ["Report + presentation", "[[dates]]", "Analysis, figures, report, demo videos", "This report, demo videos", "report/, sim/out/demo_*.mp4"],
 ], [15, 10, 33, 21, 21]));
 add(table("Work division", ["Member", "Modules / experiments owned", "Report sections"], [
-  ["[[Student Name1]]", "[[ ]]", "[[ ]]"], ["[[Student Name2]]", "[[ ]]", "[[ ]]"], ["[[Student Name3]]", "[[ ]]", "[[ ]]"],
+  ["Prarthana Yadwad (2309096)", "[[ ]]", "[[ ]]"], ["Kshitij Pujari (2307582)", "[[ ]]", "[[ ]]"], ["Amitav Ramesh (2305377)", "[[ ]]", "[[ ]]"],
 ], [30, 40, 30]));
 add(H1("Appendix B. Reproducing the Results"));
 add(B([

@@ -788,7 +788,7 @@ add(table("Project phases: activities, outputs and evidence", ["Phase", "Dates",
   ["Report + presentation", "[[dates]]", "Analysis, figures, report, demo videos", "This report, demo videos", "report/, sim/out/demo_*.mp4"],
 ], [15, 10, 33, 21, 21]));
 add(table("Work division", ["Member", "Modules / experiments owned", "Report sections"], [
-  ["[[Student Name1]]", "[[ ]]", "[[ ]]"], ["[[Student Name2]]", "[[ ]]", "[[ ]]"], ["[[Student Name3]]", "[[ ]]", "[[ ]]"],
+  ["Prarthana Yadwad (2309096)", "[[ ]]", "[[ ]]"], ["Kshitij Pujari (2307582)", "[[ ]]", "[[ ]]"], ["Amitav Ramesh (2305377)", "[[ ]]", "[[ ]]"],
 ], [30, 40, 30]));
 add(H1("Appendix B. Reproducing the Results"));
 add(B([
@@ -813,7 +813,8 @@ if (unused.length) console.log("note: unused refs", unused);
 // ================================================================== FRONT MATTER
 const TITLE = "Language-Guided Robots on Affordable Hardware: Persistent Memory and Cross-Embodiment Transfer — Phase 1–2 Design and Simulation Study";
 const cline = (t, o = {}) => new Paragraph({ children: runs(t, { size: o.size || 24, bold: o.bold, font: FONT }), alignment: AlignmentType.CENTER, spacing: { after: o.after ?? 120, line: 276 } });
-const students = (y) => [1, 2, 3].map((i) => new Paragraph({ children: [new TextRun({ text: `Student Name${i}`, highlight: "yellow", size: 24 }), new TextRun({ text: "\t" }), new TextRun({ text: "App ID", highlight: "yellow", size: 24 })], tabStops: [{ type: TabStopType.LEFT, position: 3600 }, { type: TabStopType.LEFT, position: 6000 }], indent: { left: 2600 }, spacing: { after: 60 } }));
+const STU = [["Prarthana Yadwad", "2309096"], ["Kshitij Pujari", "2307582"], ["Amitav Ramesh", "2305377"]];
+const students = (y) => STU.map(([n, id]) => new Paragraph({ children: [new TextRun({ text: n, size: 24 }), new TextRun({ text: "\t" }), new TextRun({ text: id, size: 24 })], tabStops: [{ type: TabStopType.LEFT, position: 3600 }, { type: TabStopType.LEFT, position: 6000 }], indent: { left: 2600 }, spacing: { after: 60 } }));
 const titlePage = [
   cline("uGDX School of Technology", { size: 32, bold: true, after: 600 }),
   cline("Project Report on", { size: 26, after: 240 }),
@@ -826,7 +827,7 @@ const titlePage = [
   ...students(),
   cline("", { after: 360 }),
   cline("Supervisor:"),
-  new Paragraph({ children: [new TextRun({ text: "Name of the Guide", highlight: "yellow", size: 24 })], alignment: AlignmentType.CENTER }),
+  new Paragraph({ children: [new TextRun({ text: "Dr Sneha Talreja", size: 24 })], alignment: AlignmentType.CENTER }),
   new Paragraph({ children: [new TextRun({ text: "(Affiliation)", highlight: "yellow", size: 24 })], alignment: AlignmentType.CENTER, spacing: { after: 600 } }),
   cline("AY: 2026-2027", { bold: true }),
 ];
@@ -838,11 +839,11 @@ const certPage = [
   ...students(),
   new Paragraph({ children: [new TextRun({ text: `submitted in partial fulfilment of the requirement for the course "Design Project Minor" of Final Year of Bachelor degree in Technology (CS, AI & ML) during academic year 2026-27.`, size: 24 })], alignment: AlignmentType.JUSTIFIED, spacing: { before: 240, after: 1600, line: 360 } }),
   new Paragraph({ children: [new TextRun({ text: "Supervisor/Guide", size: 24 }), new TextRun({ text: "\tExaminer", size: 24 })], tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }] }),
-  new Paragraph({ children: [new TextRun({ text: "(Name of the Guide)", highlight: "yellow", size: 24 })] }),
+  new Paragraph({ children: [new TextRun({ text: "(Dr Sneha Talreja)", size: 24 })] }),
 ];
 const ack = [
   FH("Acknowledgement"),
-  P(`We express our sincere gratitude to our guide, [[Name of the Guide]], for continuous guidance and feedback throughout this project. We thank the faculty of uGDX School of Technology for providing the opportunity and resources for the Design Project Minor course, and our peers for their suggestions. We also acknowledge the open-source communities behind PyBullet, MuJoCo, PyTorch, Ultralytics and Hugging Face, whose tools made this work possible.`),
+  P(`We express our sincere gratitude to our guide, Dr Sneha Talreja, for continuous guidance and feedback throughout this project. We thank the faculty of uGDX School of Technology for providing the opportunity and resources for the Design Project Minor course, and our peers for their suggestions. We also acknowledge the open-source communities behind PyBullet, MuJoCo, PyTorch, Ultralytics and Hugging Face, whose tools made this work possible.`),
 ];
 const abstract = [
   FH("Abstract"),

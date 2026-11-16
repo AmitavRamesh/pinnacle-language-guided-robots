@@ -86,11 +86,13 @@ function box(s, t, x, y, w, h, size = 18) {
   s.addText("Persistent Memory and Cross-Embodiment Transfer — Phase 1–2 Design and Simulation Study", { x: 0.8, y: 2.7, w: W - 1.6, h: 0.6, fontFace: FONT, fontSize: 22, align: "center", color: BLACK });
   s.addText([
     { text: "Presented by", options: { bold: true, breakLine: true } },
-    { text: "Amitav  ·  Kshitij  ·  Prarthana", options: { breakLine: true } },
+    { text: "Prarthana Yadwad (2309096)", options: { breakLine: true } },
+    { text: "Kshitij Pujari (2307582)", options: { breakLine: true } },
+    { text: "Amitav Ramesh (2305377)", options: { breakLine: true } },
     { text: " ", options: { breakLine: true } },
     { text: "Supervisor", options: { bold: true, breakLine: true } },
-    { text: "[Name of the Guide], [Affiliation]", options: { breakLine: true } },
-  ], { x: 3.2, y: 3.75, w: W - 6.4, h: 2.2, fontFace: FONT, fontSize: 18, align: "center", color: BLACK });
+    { text: "Dr Sneha Talreja", options: { breakLine: true } },
+  ], { x: 3.2, y: 3.5, w: W - 6.4, h: 2.8, fontFace: FONT, fontSize: 18, align: "center", color: BLACK });
   s.addText("Academic Year 2026–2027", { x: M, y: 6.4, w: W - 2 * M, h: 0.4, fontFace: FONT, fontSize: 16, align: "center", color: GREY });
 }
 
